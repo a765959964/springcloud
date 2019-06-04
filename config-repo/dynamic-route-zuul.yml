@@ -1,0 +1,6 @@
+#配置中心获取的配置    
+zuul:
+  routes:
+    service-provider:
+      path: /service/**
+      serviceId: eureka-service
